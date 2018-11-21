@@ -7,6 +7,7 @@ project "suzhi"
 kind "ConsoleApp"
 language "C++"
 files {"cpp/*.H",{"cpp/*.cpp"}}
+buildoptions { "-std=c++14", "-Wall" }
 
 configuration "Debug"
 defines { "DEBUG" }

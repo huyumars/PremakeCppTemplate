@@ -1,6 +1,9 @@
 #include<iostream>
 
 int main(){
-  std::cout<<"hello world"<<std::endl;
+  auto l = [](){
+    std::cout<<"hello world"<<std::endl;
+  };
+  l();
   return 0;
 }
